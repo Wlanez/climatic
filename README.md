@@ -9,9 +9,9 @@ La lista de  ciudades que se pueden usar son:
 http://localhost:8080/home/ciudades
 
 
-Las unidades se utiliza con el parámetro unidadGrados
+Las unidades se utiliza con el parámetro "unidadGrados"
 valores:
-	cd = centigrados
+	cd = centigrados,
 	fa = farenheit
 	
 	
