@@ -33,3 +33,4 @@ Solo implemente el  servicio de accuweather, sin embargo la Clase ClimaServiceCo
 
 Ejecutar con clean spring-boot:run
 
+Comentario de los Test: El contexto de la aplicación no carga las propiedades. 
