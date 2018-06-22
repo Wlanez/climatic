@@ -31,6 +31,6 @@ activo=accuweather
 
 Solo implemente el  servicio de accuweather, sin embargo la Clase ClimaServiceConfig  ejecuta la interfaz del proveedor (Accuweather,darksky,apixy) segun lo configurado. 
 
-Ejecutar con clean spring-boot:run
+Ejecutar: mvn clean spring-boot:run
 
 Comentario de los Test: El contexto de la aplicación no carga las propiedades. 
