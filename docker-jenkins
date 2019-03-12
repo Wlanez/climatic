@@ -1,0 +1,19 @@
+FROM jenkins/jenkins:2.157
+LABEL maintainer="jorge.nunez@email.cl"
+
+ARG JENKINS_HOME=/var/jenkins_hora
+ARG user=jenkins
+ARG group=jenkins
+ARG uid=1000
+ARG gid=1000
+
+ENV JENKINS_HOME $JENKINS_HOME
+
+# Create Jenkins Log Folder
+USER root
+
+# Set timezone
+ENV TZ=America/Santiago
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+USER jenkins
